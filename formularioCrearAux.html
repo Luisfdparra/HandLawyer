@@ -1,0 +1,82 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <div class="textos">
+            <h1 class="titulo">HandLawyer</h1>
+            <h3 class="subtitulo">Calculo de indemnizaciones</h3>
+        </div>
+    </header>
+
+    <div id="IrformularioAux">
+
+        <form action="parral.007@outlook.com" method="post" enctype="text/plain">
+            <h2>Información Auxiliar</h2>
+            <p><input type="text" name="Nombre" placeholder="Nombre" size="25"> </p>
+            <p><input type="text" name="apellido1" placeholder="Primer apellido" size="25" ></p>
+            <p><input type="text" name="apellido2" placeholder="Segundo apellido" size="25" /></p>
+            <p><input type="text" name="direccion" size="25" placeholder="Direccion /Bo /Mcpio " /></p>
+
+           
+            <p>Ciudad <select name="frecuencia">
+                    <option>Medellin</option>
+                    <option>Bogota</option>
+                    <option>Cali</option>
+                    <option>Pereira</option>
+                    <option>Armenia</option>
+                </select></p>
+
+            <p><input type="text" name="e-mail" placeholder="E-mail" size="25" value:" @ "/></p>
+            <p><input type=" password" name="contraseña" placeholder="Contraseña " /><br />
+            <p>sexo<br />
+                <input type="radio" name="sexo" value="M" /> Masculino
+                <input type="radio" name="sexo" value="F" /> Femenino
+            
+            <p>Nivel de estudios<br />
+                <input type="radio" name="estudios" value="1" checked="checked">Bachiller academico<br />
+                <input type="radio" name="estudios" value="2" /> Graduado en E.S.O.<br />
+                <input type="radio" name="estudios" value="3" /> Bachiller - Formación Profesional <br />
+                <input type="radio" name="estudios" value="3" /> Tecnica profesional <br />
+                <input type="radio" name="estudios" value="3" /> Tecnologia <br />
+                <input type="radio" name="estudios" value="4" /> Carrera - Diplomado<br />
+                <input type="radio" name="estudios" value="5" /> Licenciado o Doctorado<br />
+
+            <p>Area a la que pertenece<br />
+                <input type="checkbox" name=" Responsabilidad civil y seguros" /> Responsabilidad civil y seguros<br />
+                <input type="checkbox" name="Resolucionde conflitos" /> Resolución de conflitos<br />
+                <input type="checkbox" name="Derecho laboral y seguridad social" />Derecho laboral y seguridad social<br />
+                <input type="checkbox" name="Derecho administrativo" /> Derecho administrativo<br />
+
+            <p>Especializaciones Realizadas <br />
+                <input type="checkbox" name="Derecho contractual" /> Derecho contractual<br />
+                <input type="checkbox" name="Derecho corporativo" /> Derecho corporativo<br />
+                <input type="checkbox" name="Derecho inmobiliario" /> Derecho inmobiliario<br />
+                <input type="checkbox" name="Derecho fiduciario" /> Derecho fiduciario<br />
+                <input type="checkbox" name="Responsabilidad civil y seguros" /> Responsabilidad civil y seguros<br />
+                <input type="checkbox" name="Litigios" /> Litigios<br />
+
+            <p>Adjuntar cedula<input type="file" name="DNI" />
+
+            <p>Agregar funciones que realiza.<br />
+                <textarea name="comentario: " rows="5" cols="30">Escribe las funciones: </textarea>
+            <p>Borrar todos los datos del formulario y volver a empezar:
+                <input type="reset" value="borrar todo" />
+                <br />
+            <p>Enviar formulario por correo electronico: Al pulsar en el botón se abrirá la pagina
+                de envío de correo: en esa página pulsa en enviar:</p>
+            <p><input type="submit" value="enviar por correo" />
+
+        </form>
+    </div>
+
+</body>
+
+</html>
