@@ -5,4 +5,4 @@ function IrFormularioAux(){
 function main (){
     document.getElementById("botonformularioAux").addEventListener("click",IrFormularioAux);
 }
-window.onload=main;
+window.onload=main;     
